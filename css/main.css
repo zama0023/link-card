@@ -1,18 +1,40 @@
 html {
   box-sizing: border-box;
-  font-family: georgia;
-}
-
-.link-card h1 {
-  font-family: "Dosis", sans-serif;
+  font-family: Georgia;
+  color: #512200;
+  background-color: #f0eee8;
+  text-align: left;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #dcd4cd;
+  border-radius: 3px;
+  border-color: #cabdb2;
+}
+
+body:hover {
+  background-color: #9a816d;
+}
+
+h1 {
+  font-family: 'Dosis' , sans-serif;
+  font-size: 1.5rem;
+}
+
+.link-card {
+  font-family: 'Dosis' , sans-serif;
+}
+
 div {
   display: inline-block;
   border-bottom: 2px, solid;
-  border-color: #000;
+  border-color: #cabdb2;
+}
+
+dl {
+  font-size: 1rem;
 }
