@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family: georgia;
+}
+
+.link-card h1 {
+  font-family: "Dosis", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  display: inline-block;
+  border-bottom: 2px, solid;
+  border-color: #000;
+}
